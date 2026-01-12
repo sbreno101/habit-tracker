@@ -13,7 +13,7 @@ class SiteController extends Controller
 
         return view('home', [
             'name' => $name,
-            'habits' => $habits,
+            'habits' => $habits
         ]);
     }
 }
